@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Roboto",  Papyrus;
+  font-family: "Roboto",  sans-serif;
   background-image: url("tree_1.jpg");
   margin: 0;         /* code starts here to make screet fit any screen */
   width: 100%;
@@ -45,7 +45,7 @@ nav ul {
 }
 
 nav .logo {
-  font-family: "Poppins", Papyrus;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 90px;
   font-size: 30px;
