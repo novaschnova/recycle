@@ -77,16 +77,16 @@ header {
 }
 
 header h1 {
-  font-weight: 900;
-  font-size: 64px;
+  font-weight: 400;
+  font-size: 46px;
   line-height: 100px;
   color: #01847f;
   margin-bottom: 24px;
 }
 
 header p1 {
-  font-size: 40px;
-  line-height: 100px;
+  font-size: 30px;
+  line-height: 30px;
   color: #021718;
   width: 418px;
 
@@ -94,7 +94,7 @@ header p1 {
 }
 
 header p2 {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 30px;
   color: #021718;
   width: 418px;
@@ -152,8 +152,8 @@ header .hero-image img:hover {
 
 header .hero-image .photo-bg {
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 250px;
+  height: 320px;
   left: 45px;
   top: 24px;
 
