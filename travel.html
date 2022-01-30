@@ -65,6 +65,7 @@
 
 <div class = 'btn-group'>
 <form action="/action_page.php">
+  <br>
   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
   <label for="vehicle1">New York,United States</label><br>
   <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
@@ -81,9 +82,12 @@
   <label for="vehicle2">Tokyo, Japan</label><br>
   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
   <label for="vehicle3">Toronto, Canada</label><br><br>
+  <div class="btn">
+    <a href="#" class="button">Submit</a>
+    <br>
+</div>
 
-
-  <a href="thankyou.html"><button>Submit</button></a>
+</div>
 </form>
 <style>
 
@@ -97,14 +101,16 @@ div{
 .h3{
   color:black;
 }
-.center_buttons {
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align:center
+.btn {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .btn-group{
