@@ -7,46 +7,65 @@
     <title>Welcome</title>
     <link rel="stylesheet" href="style.css" />
 
+<style>
+
+  body {
+    background-image: url('T3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+</style>
 <body>
 
-  <div class="formcss">
-    <h1>Recycling While Traveling</h1>
+  <div class="hero-content">
+    <h1><br><br>Guide to Traveling While Recycling<br><br></h1>
 
-   <h2>Checkboxes</h2>
+   <h2>Checkboxes<br></h2>
+   <div>
 <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
 
 <form action="/action_page.php">
   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-  <label for="vehicle1">New York City, USA</label><br>
+  <label for="vehicle1">United States</label><br>
   <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2">London, France</label><br>
+  <label for="vehicle2">Germany</label><br>
   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle2">Berlin, Germany</label><br>
+  <label for="vehicle2">France</label><br>
   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3">Toronto, Canada</label><br><br>
+  <label for="vehicle3">Canada</label><br><br>
   <input type="submit" value="Submit">
 
   <a href="http://stackoverflow.com"><button>Link Text</button></a>
 </form>
-</div>
-</div>
-
 <style>
+
+div{
+  text-align: center;
+  font-family: Arial Narrow, sans-serif;
+  font-size: 30px;
+  color: black;
+}
 
 .center_buttons {
   margin: auto;
-  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align:center
 }
 
-.formcss{
-  margin: 0;
-  background-color: #90ee90; /* Green background */
+.btn-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
   color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   width: 50%; /* Set a width if needed */
   display: block; /* Make the buttons appear below each other */
-  text-align: center;
-  color; black;
 
 }
 
