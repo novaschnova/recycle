@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",  Papyrus;
   margin: 0;         /* code starts here to make screet fit any screen */
   width: 100%;
   height: 100%;
@@ -43,10 +43,10 @@ nav ul {
 }
 
 nav .logo {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", Papyrus;
   font-style: normal;
-  font-weight: 800;
-  font-size: 64px;
+  font-weight: 90px;
+  font-size: 30px;
   color: #021718;
 }
 
@@ -69,7 +69,7 @@ nav .logo {
 /* Header */
 
 .header-container {
-  background: #f5a05c url("images/bg-shape.svg");
+  background: #F0FFFF url("images/bg-shape.svg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -85,16 +85,25 @@ header {
 }
 
 header h1 {
-  font-weight: 900;
-  font-size: 64px;
-  line-height: 75px;
-  color: #021718;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 100px;
+  color: #01847f;
   margin-bottom: 24px;
 }
 
-header p {
-  font-size: 24px;
-  line-height: 42px;
+header p1 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #021718;
+  width: 418px;
+
+  margin-bottom: 48px;
+}
+
+header p2 {
+  font-size: 20px;
+  line-height: 30px;
   color: #021718;
   width: 418px;
 
@@ -105,6 +114,7 @@ header a {
   color: #fffffa;
   font-size: 24px;
   text-decoration: none;
+  font-family: Georgia;
 
   background: #01847f;
   border-radius: 8px;
@@ -150,8 +160,8 @@ header .hero-image img:hover {
 
 header .hero-image .photo-bg {
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 250px;
+  height: 320px;
   left: 45px;
   top: 24px;
 
