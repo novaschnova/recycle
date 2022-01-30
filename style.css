@@ -71,7 +71,7 @@ nav .logo {
 /* Header */
 
 .header-container {
-  background: #F0FFFF url("images/bg-shape.svg");
+  /* background: #F0FFFF url("images/bg-shape.svg"); */
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
